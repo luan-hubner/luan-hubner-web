@@ -1,0 +1,35 @@
+.about {
+  background-color: #191621;
+  
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1080px;
+
+  margin: auto;
+}
+
+.title {
+  width: 620px;
+
+  margin: auto;
+}
+
+h1 {
+  font-family: 'metropolis-bold';
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+h5 {
+  font-family: 'metropolis-light-italic';
+  font-size: 2.4rem;
+  font-weight: 100;
+  font-style: italic;
+  text-align: end;
+  color: #ffffff;
+}

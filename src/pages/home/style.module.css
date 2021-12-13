@@ -1,4 +1,4 @@
-.App {
+.home {
   background-color: #191621;
 
   width: 100%;
@@ -14,7 +14,7 @@
   position: relative;
 }
 
-.t-blue {
+.tBlue {
   color: var(--blue);
 }
 

@@ -1,12 +1,28 @@
 @font-face {
-  font-family: 'Biotif Regular';
+  font-family: 'biotif-regular';
   src: url('./assets/fonts/biotif-regular.ttf');
 }
 
 @font-face {
-  font-family: 'Biotif Bold';
+  font-family: 'biotif-bold';
   src: url('./assets/fonts/biotif-bold.ttf');
 }
+
+@font-face {
+  font-family: 'metropolis-regular';
+  src: url('./assets/fonts/metropolis-bold.otf');
+}
+
+@font-face {
+  font-family: 'metropolis-bold';
+  src: url('./assets/fonts/metropolis-bold.otf');
+}
+
+@font-face {
+  font-family: 'metropolis-light-italic';
+  src: url('./assets/fonts/metropolis-light-italic.otf');
+}
+
 
 :root {
   --font-h1: 'Fira Code';

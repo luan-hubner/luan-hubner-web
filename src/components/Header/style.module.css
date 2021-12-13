@@ -1,0 +1,56 @@
+nav {
+  width: 100%;
+  height: 80px;
+
+  font-family: 'biotif-regular';
+  font-size: 1.5rem;
+}
+
+nav .container {
+  max-width: 1080px;
+  height: 100%;
+
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  width: 100%;
+  height: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  column-gap: 6rem;
+}
+
+nav ul a {
+  position: relative;
+
+  text-decoration: none;
+  color: var(--blue);
+  letter-spacing: -0.05em;
+
+  transition: 0.5s all;
+
+  padding: 0 10px;
+}
+
+nav ul a::after {
+  content: "";
+  position: absolute;
+  background-color: var(--blue);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+nav ul a:hover::after {
+  width: 100%;
+}

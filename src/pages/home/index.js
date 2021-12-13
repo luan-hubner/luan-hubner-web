@@ -1,29 +1,29 @@
 import { useState } from 'react';
-import './App.css';
+import s from './style.module.css';
 
-import Logo from './assets/h.png';
-import ArrowRight from './assets/icons/arrow-right.png';
+import Logo from '../../assets/h.png';
+import ArrowRight from '../../assets/icons/arrow-right.png';
 
-import NavModal from './components/NavModal';
+import NavModal from '../../components/NavModal';
 
-function App() {
+export default function Home() {
   const [navOpened, setNavOpened] = useState(false);
 
   return (
-    <div className="App">
+    <div className={s.home}>
       <img src={Logo} alt="" />
 
-      <div className="header">
+      <div className={s.header}>
         <h1>Luan Hubner</h1>
 
         <h4>Full Stack Developer</h4>
       </div>
 
-      <h3 className="t-blue">With knowledge and much coffe we gonna far!</h3>
+      <h3 className={s.tBlue}>With knowledge and much coffe we gonna far!</h3>
 
-      <div className="pressing" onClick={() => setNavOpened(true)}>
+      <div className={s.pressing} onClick={() => setNavOpened(true)}>
         <span>press</span>
-        <div className="buttons">
+        <div className={s.buttons}>
           <button>ctrl</button>
           <button>space</button>
         </div>
@@ -34,5 +34,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

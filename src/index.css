@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: 'metropolis-regular';
-  src: url('./assets/fonts/metropolis-bold.otf');
+  src: url('./assets/fonts/metropolis-regular.otf');
 }
 
 @font-face {
@@ -29,6 +29,7 @@
   --font-mono: 'Share Tech Mono';
   --blue: #8de0fb;
   --gray: #8f9ba8;
+  --text-gray: #adadad;
 }
 
 * {

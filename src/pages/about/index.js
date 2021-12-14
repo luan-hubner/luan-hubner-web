@@ -1,3 +1,4 @@
+import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import s from './style.module.css';
 
@@ -175,6 +176,8 @@ export default function About() {
           </span>
         </button>
       </div>
+
+      <Footer />
     </div>
   )
 }

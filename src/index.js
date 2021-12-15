@@ -11,6 +11,7 @@ import {
 
 import Home from './pages/home';
 import About from './pages/about';
+import Articles from './pages/articles';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -18,8 +19,7 @@ ReactDOM.render(
       <Route path="/">
         <Route index element={<Home />} />
         <Route path="about" element={<About />}></Route>
-        <Route path="projects" element={<About />}></Route>
-        <Route path="articles" element={<About />}></Route>
+        <Route path="articles" element={<Articles />}></Route>
       </Route>
     </Routes>
   </BrowserRouter>,

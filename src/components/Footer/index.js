@@ -11,20 +11,20 @@ export default function Footer() {
   return (
     <div>
       <footer>
-        <img src={me} alt="me" />
+        <img className={s.me} src={me} alt="me" />
 
-        <span>Me envie um email</span>
+        <span className={s.miniTitle}>Me envie um email</span>
 
         <h5 className={s.email}>luanhubner.pro@gmail.com</h5>
 
         <div className={s.socials}>
-          <span>Redes Sociais</span>
+          <span className={s.miniTitle}>Redes Sociais</span>
 
           <div className={s.icons}>
-            <img src={github} alt="github" />
-            <img src={linkedin} alt="linkedin" />
-            <img src={twitter} alt="twitter" />
-            <img src={instagram} alt="instagram" />
+            <img className={s.icon} src={github} alt="github" />
+            <img className={s.icon} src={linkedin} alt="linkedin" />
+            <img className={s.icon} src={twitter} alt="twitter" />
+            <img className={s.icon} src={instagram} alt="instagram" />
           </div>
         </div>
       </footer>

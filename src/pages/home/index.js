@@ -11,15 +11,15 @@ export default function Home() {
 
   return (
     <div className={s.home}>
-      <img src={Logo} alt="" />
+      <img className={s.logo} src={Logo} alt="" />
 
       <div className={s.header}>
-        <h1>Luan Hubner</h1>
+        <h1 className={s.name}>Luan Hubner</h1>
 
-        <h4>Full Stack Developer</h4>
+        <h4 className={s.pro}>Full Stack Developer</h4>
       </div>
 
-      <h3 className={s.tBlue}>With knowledge and much coffe we gonna far!</h3>
+      <h3 className={s.description}>With knowledge and much coffe we gonna far!</h3>
 
       <div className={s.pressing} onClick={() => setNavOpened(true)}>
         <span>press</span>

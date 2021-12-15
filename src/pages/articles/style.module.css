@@ -1,0 +1,66 @@
+.mb1r {
+  margin-bottom: 1rem;
+}
+
+.articles {
+  background-color: #191621;
+}
+
+.container {
+  max-width: 1080px !important;
+
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  margin-bottom: 8rem;
+}
+
+.container .title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  margin: 4rem 6rem;
+}
+
+.container .title span {
+  font-family: 'metropolis-bold';
+  font-size: 4rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 2.5rem;
+}
+
+.container .title h4 {
+  font-family: 'metropolis-regular';
+  font-size: 1rem;
+  font-weight: 400;
+  color: #8DE0FB;
+  letter-spacing: 0em;
+  line-height: 1.5rem;
+
+  width: 620px;
+}
+
+.container .articles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+
+  margin: 4rem 6rem;
+}
+
+.container .articles .mini {
+  font-family: 'metropolis-bold';
+  font-size: 1rem;
+  color: #FFFFFF;
+
+  padding: 0 1rem;
+  
+  margin: 0 0 1rem 0;
+}

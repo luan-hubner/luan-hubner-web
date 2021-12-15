@@ -78,22 +78,19 @@ h5 {
 }
 
 .informations .row .description p {
-  font-family: var(--font-h1);
-  color: var(--text-gray);
-  font-size: 1.3rem;
-  text-align: left;
+  font-family: 'metropolis-regular';
+  font-size: 1.2rem;
+  line-height: 1.7rem;
 
-  width: 100%;
-
-  line-height: 1.5rem;
-  letter-spacing: -0.1rem;
+  color: var(--gray);
 }
 
 .informations .row .description p .whited {
-  font-family: var(--font-h1);
-  font-size: 1.3rem;
   color: #FFFFFF;
-  letter-spacing: -0.1rem;
+  
+  font-family: 'metropolis-regular';
+  font-size: 1.2rem;
+  line-height: 1.5rem;
 }
 
 .informations .row .description .whti {

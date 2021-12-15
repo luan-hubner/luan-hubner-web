@@ -10,11 +10,11 @@ footer {
   width: 100%;
 }
 
-footer img {
+footer .me {
   margin-bottom: 2rem;
 }
 
-footer span {
+footer .miniTitle {
   font-family: 'metropolis-regular';
   font-size: 1.5rem;
   color: #FFFFFF;

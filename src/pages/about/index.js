@@ -10,13 +10,12 @@ export default function About() {
       <div className={s.container}>
         <div className={s.title}>
           <h1>full stack developer</h1>
-          <h5>for now</h5>
         </div>
 
         <div className={s.informations}>
           <div className={s.row}>
             <div className={s.what}>
-              <h3>summary</h3>
+              <h3>resumo</h3>
             </div>
             <div className={s.description}>
               <p>Olá,
@@ -48,7 +47,7 @@ export default function About() {
 
           <div className={s.row}>
             <div className={s.what}>
-              <h3>work <br /> experience</h3>
+              <h3>experências <br /> profissionais</h3>
             </div>
             <div className={s.description}>
               <div className={s.whti}>
@@ -64,7 +63,7 @@ export default function About() {
 
           <div className={s.row}>
             <div className={s.what}>
-              <h3>volunteer <br /> experience</h3>
+              <h3>experiências <br /> voluntárias</h3>
             </div>
             <div className={s.description}>
               <div className={s.whti}>
@@ -79,7 +78,7 @@ export default function About() {
 
           <div className={s.row}>
             <div className={s.what}>
-              <h3>education</h3>
+              <h3>educação</h3>
             </div>
             <div className={s.description}>
               <div className={s.whti}>
@@ -99,7 +98,7 @@ export default function About() {
 
           <div className={s.row}>
             <div className={s.what}>
-              <h3>techonologies</h3>
+              <h3>tecnologias</h3>
             </div>
             <div className={s.description}>
               <div className={s.techs}>
@@ -146,7 +145,7 @@ export default function About() {
 
           <div className={s.row}>
             <div className={s.what}>
-              <h3>my future...</h3>
+              <h3>meu futuro...</h3>
             </div>
             <div className={s.description}>
               <p>

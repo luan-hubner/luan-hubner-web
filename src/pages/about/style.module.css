@@ -22,8 +22,6 @@
 }
 
 .title {
-  width: 620px;
-
   margin: 4rem auto;
 }
 
@@ -35,15 +33,6 @@ h1 {
   color: #ffffff;
 }
 
-h5 {
-  font-family: 'metropolis-light-italic';
-  font-size: 2.4rem;
-  font-weight: 100;
-  font-style: italic;
-  text-align: end;
-  color: #ffffff;
-}
-
 .informations {
   display: flex;
   flex-direction: column;
@@ -52,12 +41,20 @@ h5 {
 }
 
 .informations .row {
+  display: flex;
+  flex-wrap: wrap;
+
   width: 100%;
 
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-
   margin-bottom: 8rem;
+}
+
+.informations .row .what {
+  flex: 1;
+}
+
+.informations .row .description {
+  flex: 2;
 }
 
 .informations .row .what h3 {
@@ -70,9 +67,6 @@ h5 {
 .informations .row .description {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-
-  align-items: flex-start;
 
   row-gap: 1rem;
 }
@@ -154,4 +148,29 @@ h5 {
   font-family: 'biotif-bold';
   font-size: 1.4rem;
   text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .informations .row .what {
+    padding-left: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .informations .row {
+    padding: 0 3rem;
+  }
+
+  .informations .row .what {
+    width: 100%;
+
+    flex: unset;
+
+    padding-left: 0;
+    padding-bottom: 1rem;
+
+    margin-bottom: 3rem;
+
+    border-bottom: 1px solid var(--gray);
+  }
 }

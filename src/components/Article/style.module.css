@@ -39,8 +39,8 @@
   row-gap: 1rem;
 
   max-width: 20rem;
-
-  padding: 0 0 0 2rem;
+  
+  padding: 1rem 0 1rem 2rem;
 
   color: #FFFFFF;
 }
@@ -65,4 +65,20 @@
   font-size: 1rem;
   font-weight: 300;
   text-align: left;
+}
+
+@media (max-width: 790px) {
+  .article {
+    justify-content: unset;
+  }
+
+  .article .details {
+    max-width: unset;
+
+    padding: 1.5rem 0 0 0;
+  }
+
+  .article .apresentation {
+    max-width: unset;
+  }
 }

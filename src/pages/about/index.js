@@ -1,8 +1,19 @@
+import { useState } from 'react';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
+import NavModal from '../../components/NavModal';
 import s from './style.module.css';
 
 export default function About() {
+  const [navOpened, setNavOpened] = useState(false);
+
+  document.onkeyup = function (e) {
+    var evt = window.event || e;
+      if (evt.ctrlKey && evt.keyCode == 32) {
+        setNavOpened(!navOpened)
+      }
+  }
+
   return (
     <div className={s.about}>
       <Header />
@@ -175,6 +186,8 @@ export default function About() {
           </span>
         </button>
       </div>
+
+      {navOpened ? <NavModal setNavOpened={setNavOpened} /> : null}
 
       <Footer />
     </div>

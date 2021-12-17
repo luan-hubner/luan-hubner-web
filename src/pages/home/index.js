@@ -9,6 +9,13 @@ import NavModal from '../../components/NavModal';
 export default function Home() {
   const [navOpened, setNavOpened] = useState(false);
 
+  document.onkeyup = function (e) {
+    var evt = window.event || e;
+      if (evt.ctrlKey && evt.keyCode == 32) {
+        setNavOpened(!navOpened)
+      }
+  }
+
   return (
     <div className={s.home}>
       <img className={s.logo} src={Logo} alt="" />
@@ -22,7 +29,7 @@ export default function Home() {
       <h3 className={s.description}>With knowledge and much coffe we gonna far!</h3>
 
       <div className={s.pressing} onClick={() => setNavOpened(true)}>
-        <span>press</span>
+        press
         <div className={s.buttons}>
           <button>ctrl</button>
           <button>space</button>

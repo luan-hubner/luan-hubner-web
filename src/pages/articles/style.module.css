@@ -4,6 +4,8 @@
 
 .articles {
   background-color: #191621;
+
+  width: 100%;
 }
 
 .container {
@@ -25,7 +27,7 @@
   align-items: flex-start;
   flex-wrap: wrap;
 
-  margin: 6rem 6rem;
+  margin: 4rem 6rem 6rem 6rem;
 }
 
 .container .title span {

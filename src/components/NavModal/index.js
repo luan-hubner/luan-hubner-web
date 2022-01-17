@@ -22,7 +22,7 @@ export default function NavModal({ setNavOpened }) {
         <div className={s.modal}>
           <h4>WHERE WE GO?</h4>
           <ul>
-            <Link to="/home">
+            <Link to="/">
               <img src={house} alt="" />
               Home
             </Link>

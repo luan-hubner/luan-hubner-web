@@ -1,7 +1,5 @@
 .projects {
   background-color: #191621;
-  
-  min-height: 100vh;
 }
 
 .container {
@@ -15,6 +13,10 @@
   align-items: center;
 
   margin-bottom: 8rem;
+}
+
+.container .projects {
+  display: flex;
 }
 
 .title {

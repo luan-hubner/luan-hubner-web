@@ -13,7 +13,7 @@ export default function Articles() {
 
   document.onkeyup = function (e) {
     var evt = window.event || e;
-      if (evt.ctrlKey && evt.keyCode == 32) {
+      if (evt.ctrlKey && evt.keyCode === 32) {
         setNavOpened(!navOpened)
       }
   }
@@ -25,7 +25,7 @@ export default function Articles() {
   
       <div className={s.container}>
         <div className={s.title}>
-          <span>sharing experiences</span>
+          <span>compartilhando experiências</span>
           
           <h4>
             Aqui estão alguns artigos que eu ando escrevendo, gostaria de ter

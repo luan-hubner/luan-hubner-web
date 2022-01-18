@@ -9,7 +9,7 @@ export default function About() {
 
   document.onkeyup = function (e) {
     var evt = window.event || e;
-      if (evt.ctrlKey && evt.keyCode == 32) {
+      if (evt.ctrlKey && evt.keyCode === 32) {
         setNavOpened(!navOpened)
       }
   }

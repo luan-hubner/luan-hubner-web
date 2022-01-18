@@ -38,7 +38,12 @@ export default function Projects() {
   
       <div className={s.container}>
         <div className={s.title}>
-          <h1>know my projects</h1>
+          <span>compartilhando projetos</span>
+          
+          <h4>
+            É muito legal saber o que outros andam codando e como fazem, mostra um pouco sobre nós, portanto,
+            gostaria de compartilhar com você alguns dos meus projetos.
+          </h4>
         </div>
 
         <div className={s.projects}>

@@ -3,7 +3,7 @@
 }
 
 .container {
-  max-width: 1080px !important;
+  max-width: 940px !important;
 
   margin: auto;
 
@@ -17,10 +17,35 @@
 
 .container .projects {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.title {
-  margin: 4rem auto;
+.container .title {
+  display: flex;
+  justify-content: left !important;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  margin: 4rem 6rem 6rem 6rem;
+}
+
+.container .title span {
+  font-family: 'metropolis-bold';
+  font-size: 4rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 2.5rem;
+}
+
+.container .title h4 {
+  font-family: 'metropolis-regular';
+  font-size: 1rem;
+  font-weight: 400;
+  color: #8DE0FB;
+  letter-spacing: 0em;
+  line-height: 1.5rem;
 }
 
 h1 {

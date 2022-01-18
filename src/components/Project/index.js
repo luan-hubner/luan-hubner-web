@@ -1,19 +1,25 @@
 import s from './style.module.css';
 
 import githubIcon from '../../assets/icons/github.png';
+import outIcon from '../../assets/icons/out.png';
 
 export default function Project({ project }) {
   return (
     <div className={s.card}>
-      <img src={project.image} className={s.cardImage} />
+      <img src={project.image} alt="preview" className={s.cardImage} />
       <div className={s.cardOverlay}>
         <div className={s.overlayText}>
           <h3>{project.name}</h3>
           <p>{project.description}</p>
           
           <div className={s.buttons}>
-            <img src={githubIcon} alt="github-link" />
-            <img src={githubIcon} alt="website-link" />
+            <img src={githubIcon} alt="github-link" title="GitHub" />
+
+            {
+              project.website ? (
+                <img src={outIcon} alt="website-link" title="Website" />
+              ) : null
+            }
           </div>
         </div>
       </div>

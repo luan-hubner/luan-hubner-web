@@ -3,8 +3,6 @@
   transition: all .5s ease-in;
 
   font-family: 'metropolis-bold';
-
-  cursor: pointer;
 }
 
 .cardImage {
@@ -50,7 +48,6 @@
 }
 
 .overlayText h3 {
-  
   font-size: 2rem;
 }
 
@@ -60,4 +57,8 @@
   align-items: center;
 
   column-gap: 1rem;
+}
+
+.buttons img {
+  cursor: pointer;
 }

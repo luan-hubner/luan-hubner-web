@@ -13,11 +13,15 @@ export default function Project({ project }) {
           <p>{project.description}</p>
           
           <div className={s.buttons}>
-            <img src={githubIcon} alt="github-link" title="GitHub" />
+            <a href={project.github}>
+              <img src={githubIcon} alt="github-link" title="GitHub" />
+            </a>
 
             {
               project.website ? (
-                <img src={outIcon} alt="website-link" title="Website" />
+                <a href={project.github}>
+                  <img src={outIcon} alt="website-link" title="Website" />
+                </a>
               ) : null
             }
           </div>

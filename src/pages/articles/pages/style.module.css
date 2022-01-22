@@ -1,0 +1,38 @@
+main {
+  background-color: var(--dark);
+
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+}
+
+main .apresentation {
+  min-height: 100vh;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main .apresentation .overlay {
+  min-height: 100vh;
+
+  background-color: var(--very-dark);
+  opacity: 0.9;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .apresentation .overlay h4 {
+  color: #FFFFFF;
+
+  text-align: center;
+
+  font-size: 3rem;
+  font-family: var(--font-text);
+  letter-spacing: -2px;
+
+  max-width: 940px;
+}

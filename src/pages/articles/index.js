@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import bored from '../../assets/bored.jpg';
+
 import Article from '../../components/Article';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
@@ -17,6 +19,17 @@ export default function Articles() {
         setNavOpened(!navOpened)
       }
   }
+
+  const articles = [
+    {
+      id: 1,
+      image: bored,
+      title: 'Você já se sentiu enjoado ou cansado de um projeto no meio do caminho?',
+      description: 'Um pouco sobre a minha experiência encabeçando projetos e alguns erros que cometi.',
+      date: '12 de agosto de 2021',
+      tag: 'voce-ja-se-sentiu-enjoado-ou-cansado-de-um-projeto-no-meio-do-caminho'
+    }
+  ];
 
   return (
     <>
@@ -37,8 +50,11 @@ export default function Articles() {
         <div className={s.articles}>
           <span className={s.mini}>últimos artigos</span>
 
-          <Article />
-          <Article />
+          {
+            articles.map(article => (
+              <Article article={article} />
+            ))
+          }
         </div>
 
       </div>

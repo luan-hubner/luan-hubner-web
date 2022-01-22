@@ -3,7 +3,7 @@
 }
 
 .about {
-  background-color: #191621;
+  background-color: var(--dark);
   
   min-height: 100vh;
 }

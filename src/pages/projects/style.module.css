@@ -1,5 +1,5 @@
 .projects {
-  background-color: #191621;
+  background-color: var(--dark);
 }
 
 .container {

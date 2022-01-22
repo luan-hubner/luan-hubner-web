@@ -27,9 +27,12 @@
 :root {
   --font-h1: 'Fira Code';
   --font-mono: 'Share Tech Mono';
+  --font-text: 'biotif-regular';
   --blue: #8de0fb;
   --gray: #8f9ba8;
   --text-gray: #adadad;
+  --dark: #191621;
+  --very-dark: #050505;
 }
 
 * {

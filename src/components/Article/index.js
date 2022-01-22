@@ -1,24 +1,27 @@
 import s from './style.module.css';
-import bored from '../../assets/bored.jpg';
+
+import { Link } from 'react-router-dom';
 
 export default function Article({ article }) {
   return (
-    <div className={s.article}>
-      <div className={s.apresentation}>
-        <img src={bored} alt="" />
-      </div>
+    <a href={`/articles/${article.tag}`}>
+      <div className={s.article}>
+        <div className={s.apresentation}>
+          <img src={article.image} alt="article-preview" />
+        </div>
 
-      <div className={s.details}>
-        <span className={s.title}>
-          O que me faz enjoar e cansar de um projeto no meio do caminho?
-        </span>
-        <span className={s.subtitle}>
-          Um pouco sobre a minha experiência encabeçando projetos e alguns erros que cometi
-        </span>
-        <span className={s.date}>
-          12 de agosto de 2022
-        </span>
+        <div className={s.details}>
+          <span className={s.title}>
+            {article.title}
+          </span>
+          <span className={s.subtitle}>
+            {article.description}
+          </span>
+          <span className={s.date}>
+            {article.date}
+          </span>
+        </div>
       </div>
-    </div>
+    </a>
   );
 }

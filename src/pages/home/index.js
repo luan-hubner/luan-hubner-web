@@ -26,8 +26,6 @@ export default function Home() {
         <h4 className={s.pro}>Full Stack Developer</h4>
       </div>
 
-      <h3 className={s.description}>With knowledge and much coffe we gonna far!</h3>
-
       <div className={s.pressing} onClick={() => setNavOpened(true)}>
         press
         <div className={s.buttons}>

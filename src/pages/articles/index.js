@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import bored from '../../assets/bored.jpg';
+import writing from '../../assets/writing.svg';
 
 import Article from '../../components/Article';
 import Footer from '../../components/Footer';
@@ -20,16 +21,7 @@ export default function Articles() {
       }
   }
 
-  const articles = [
-    {
-      id: 1,
-      image: bored,
-      title: 'Você já se sentiu enjoado ou cansado de um projeto no meio do caminho?',
-      description: 'Um pouco sobre a minha experiência encabeçando projetos e alguns erros que cometi.',
-      date: '12 de agosto de 2021',
-      tag: 'voce-ja-se-sentiu-enjoado-ou-cansado-de-um-projeto-no-meio-do-caminho'
-    }
-  ];
+  const articles = [];
 
   return (
     <>
@@ -47,13 +39,27 @@ export default function Articles() {
           </h4>
         </div>
 
-        <div className={s.articles}>
-          <span className={s.mini}>últimos artigos</span>
-
+        <div className={s.articles__list}>
           {
-            articles.map(article => (
-              <Article article={article} />
-            ))
+            articles.length ? (
+              <>
+                <span className={s.mini}>últimos artigos</span>
+
+                {
+                  articles.map(article => (
+                    <Article article={article} />
+                  ))
+                }
+              </>
+            ) : (
+              <div className={s.no__data}>
+                <img src={writing} alt="no-data" />
+                <h3>
+                  Oops, nada por aqui.<br /><br />
+                  Em breve conhecimentos e experiências serão compartilhadas.
+                </h3>
+              </div>
+            )
           }
         </div>
 

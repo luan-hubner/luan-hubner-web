@@ -12,7 +12,7 @@ export default function Projects() {
   const projects = [
     {
       image: lhweb,
-      github: 'https://github.com/luan-hubner/nlw-happy-web',
+      github: 'https://github.com/luan-hubner/luan-hubner-web',
       name: 'Luan Hubner',
       description: 'Projeto (open source) desse website.'
     },
@@ -25,7 +25,7 @@ export default function Projects() {
     },
     {
       image: thunder,
-      github: 'https://github.com/luan-hubner/nlw-happy-web',
+      github: 'https://github.com/luan-hubner/interdisciplinar-I',
       website: 'happy.luanhubner.com',
       name: 'THUNDER',
       description: 'Website para empresa de painéis solares desenvolvido como parte de um projeto interdisciplinar da faculdade.'

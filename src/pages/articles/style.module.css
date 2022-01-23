@@ -4,7 +4,10 @@
 
 .articles {
   background-color: var(--dark);
+
+  padding-top: 7rem;
 }
+
 
 .container {
   max-width: 940px;
@@ -52,7 +55,7 @@
   justify-content: left;
 }
 
-.container .articles .mini {
+.container .articles__list .mini {
   font-family: 'metropolis-bold';
   font-size: 1rem;
   color: #FFFFFF;
@@ -60,4 +63,26 @@
   padding: 0 1rem;
   
   margin: 0 0 1rem 0;
+}
+
+.container .articles__list .no__data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  column-gap: 5rem;
+}
+
+.container .articles__list .no__data img {
+  width: 320px  ;
+}
+
+.container .articles__list .no__data h3 {
+  font-family: var(--font-text);
+  color: #FFFFFF;
+
+  max-width: 300px;
+
+  font-size: 1.5rem;
 }

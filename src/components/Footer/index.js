@@ -21,10 +21,15 @@ export default function Footer() {
           <span className={s.miniTitle}>Redes Sociais</span>
 
           <div className={s.icons}>
-            <img className={s.icon} src={github} alt="github" />
-            <img className={s.icon} src={linkedin} alt="linkedin" />
-            <img className={s.icon} src={twitter} alt="twitter" />
-            <img className={s.icon} src={instagram} alt="instagram" />
+            <a href="https://github.com/luan-hubner">
+              <img className={s.icon} src={github} alt="github" />
+            </a>
+            <a href="https://www.linkedin.com/in/luan-hubner-b82b16177/">
+              <img className={s.icon} src={linkedin} alt="linkedin" />
+            </a>
+            <a href="https://www.instagram.com/luanhubner/">
+              <img className={s.icon} src={instagram} alt="instagram" />
+            </a>
           </div>
         </div>
       </footer>

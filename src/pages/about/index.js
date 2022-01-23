@@ -36,7 +36,7 @@ export default function About() {
 
               <p>
                 Eu tenho
-                  <span className={s.whited}>&nbsp;20 anos&nbsp;</span>
+                  <span className={s.whited}>&nbsp;21 anos&nbsp;</span>
                 e atualmente trabalho como desenvolvedor
                   <span className={s.whited}>&nbsp;Full Stack.&nbsp;</span>
                 Entrei no mercado de desenvolvimento em
@@ -180,7 +180,7 @@ export default function About() {
           </div>
         </div>
 
-        <button className={s.btnPdf}>
+        <button disabled className={s.btnPdf}>
           <span>
             DOWNLOAD PDF
           </span>

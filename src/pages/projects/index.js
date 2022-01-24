@@ -19,14 +19,14 @@ export default function Projects() {
     {
       image: happy,
       github: 'https://github.com/luan-hubner/nlw-happy-web',
-      website: 'happy.luanhubner.com',
+      website: null,
       name: 'Happy',
       description: 'Projeto desenvolvido no NLW da Rocketseat.'
     },
     {
       image: thunder,
       github: 'https://github.com/luan-hubner/interdisciplinar-I',
-      website: 'happy.luanhubner.com',
+      website: null,
       name: 'THUNDER',
       description: 'Website para empresa de painéis solares desenvolvido como parte de um projeto interdisciplinar da faculdade.'
     },

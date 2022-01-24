@@ -19,7 +19,7 @@ export default function Project({ project }) {
 
             {
               project.website ? (
-                <a href={project.github}>
+                <a href={project.website}>
                   <img src={outIcon} alt="website-link" title="Website" />
                 </a>
               ) : null

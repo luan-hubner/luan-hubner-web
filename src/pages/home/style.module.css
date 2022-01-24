@@ -39,7 +39,7 @@ span {
 
   color: white;
 
-  font-size: 4rem;
+  font-size: 3.5rem;
 
   margin-bottom: 1rem;
 }
@@ -85,7 +85,7 @@ span {
 
   background-color: var(--gray);
 
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1rem;
 
   border: none;
 
@@ -99,6 +99,8 @@ span {
 
 .pressing .buttons {
   margin: 0 0.5rem;
+
+  display: flex;
 }
 
 .pressing img {

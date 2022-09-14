@@ -56,3 +56,9 @@ h1 {
   font-weight: bold;
   color: #ffffff;
 }
+
+@media (max-width: 768px) {
+  .container .title span {
+    font-size: 3rem;
+  }
+}

@@ -75,7 +75,7 @@
 }
 
 .container .articles__list .no__data img {
-  width: 320px  ;
+  width: 20rem;
 }
 
 .container .articles__list .no__data h3 {
@@ -85,4 +85,20 @@
   max-width: 300px;
 
   font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .container .title span {
+    font-size: 3rem;
+  }
+
+  .container .articles__list .no__data img {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .container .articles__list .no__data h3 {
+    text-align: center;
+  }
 }

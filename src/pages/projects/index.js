@@ -1,6 +1,9 @@
+import { useState } from 'react';
+
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import Project from '../../components/Project';
+import NavModal from '../../components/NavModal';
 
 import s from './style.module.css';
 
@@ -9,6 +12,15 @@ import thunder from '../../assets/projects/thunder.png';
 import lhweb from '../../assets/projects/lhweb.png';
 
 export default function Projects() {
+  const [navOpened, setNavOpened] = useState(false);
+
+  document.onkeyup = function (e) {
+    var evt = window.event || e;
+      if (evt.ctrlKey && evt.keyCode === 32) {
+        setNavOpened(!navOpened)
+      }
+  }
+
   const projects = [
     {
       image: lhweb,
@@ -19,14 +31,14 @@ export default function Projects() {
     {
       image: happy,
       github: 'https://github.com/luan-hubner/nlw-happy-web',
-      website: 'happy.luanhubner.com',
+      website: null,
       name: 'Happy',
       description: 'Projeto desenvolvido no NLW da Rocketseat.'
     },
     {
       image: thunder,
       github: 'https://github.com/luan-hubner/interdisciplinar-I',
-      website: 'happy.luanhubner.com',
+      website: null,
       name: 'THUNDER',
       description: 'Website para empresa de painéis solares desenvolvido como parte de um projeto interdisciplinar da faculdade.'
     },
@@ -54,6 +66,8 @@ export default function Projects() {
           }
         </div>
       </div>
+
+      {navOpened ? <NavModal setNavOpened={setNavOpened} /> : null}
 
       <Footer />
     </div>

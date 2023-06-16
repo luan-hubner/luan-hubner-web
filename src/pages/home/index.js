@@ -1,19 +1,19 @@
-import { useState } from 'react';
-import s from './style.module.css';
+import { useState } from 'react'
+import s from './style.module.css'
 
-import Logo from '../../assets/h.png';
-import ArrowRight from '../../assets/icons/arrow-right.png';
+import Logo from '../../assets/h.png'
+import ArrowRight from '../../assets/icons/arrow-right.png'
 
-import NavModal from '../../components/NavModal';
+import NavModal from '../../components/NavModal'
 
 export default function Home() {
-  const [navOpened, setNavOpened] = useState(false);
+  const [navOpened, setNavOpened] = useState(false)
 
   document.onkeyup = function (e) {
-    var evt = window.event || e;
-      if (evt.ctrlKey && evt.keyCode === 32) {
-        setNavOpened(!navOpened)
-      }
+    var evt = window.event || e
+    if (evt.ctrlKey && evt.keyCode === 32) {
+      setNavOpened(!navOpened)
+    }
   }
 
   return (
@@ -37,5 +37,5 @@ export default function Home() {
 
       {navOpened ? <NavModal setNavOpened={setNavOpened} /> : null}
     </div>
-  );
+  )
 }

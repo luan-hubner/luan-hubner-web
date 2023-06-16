@@ -1,6 +1,4 @@
-import s from './style.module.css';
-
-import { Link } from 'react-router-dom';
+import s from './style.module.css'
 
 export default function Article({ article }) {
   return (
@@ -11,17 +9,11 @@ export default function Article({ article }) {
         </div>
 
         <div className={s.details}>
-          <span className={s.title}>
-            {article.title}
-          </span>
-          <span className={s.subtitle}>
-            {article.description}
-          </span>
-          <span className={s.date}>
-            {article.date}
-          </span>
+          <span className={s.title}>{article.title}</span>
+          <span className={s.subtitle}>{article.description}</span>
+          <span className={s.date}>{article.date}</span>
         </div>
       </div>
     </a>
-  );
+  )
 }

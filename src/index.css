@@ -23,7 +23,6 @@
   src: url('./assets/fonts/metropolis-light-italic.otf');
 }
 
-
 :root {
   --font-h1: 'Fira Code';
   --font-mono: 'Share Tech Mono';
@@ -48,7 +47,6 @@
     font-size: 15px;
   }
 }
-
 
 @media (max-width: 425px) {
   * {

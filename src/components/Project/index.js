@@ -13,12 +13,12 @@ export default function Project({ project }) {
           <p>{project.description}</p>
 
           <div className={s.buttons}>
-            <a href={project.github} target="_blank">
+            <a href={project.github} target="_blank" rel="noreferrer">
               <img src={githubIcon} alt="github-link" title="GitHub" />
             </a>
 
             {project.website ? (
-              <a href={project.website} target="_blank">
+              <a href={project.website} target="_blank" rel="noreferrer">
                 <img src={outIcon} alt="website-link" title="Website" />
               </a>
             ) : null}

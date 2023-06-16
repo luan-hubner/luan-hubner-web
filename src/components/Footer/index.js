@@ -3,7 +3,6 @@ import s from './style.module.css'
 import me from '../../assets/me.png'
 
 import linkedin from '../../assets/icons/linkedin.png'
-import twitter from '../../assets/icons/twitter.png'
 import instagram from '../../assets/icons/instagram.png'
 import github from '../../assets/icons/github.png'
 
@@ -21,13 +20,13 @@ export default function Footer() {
           <span className={s.miniTitle}>Redes Sociais</span>
 
           <div className={s.icons}>
-            <a href="https://github.com/luan-hubner" target="_blank">
+            <a href="https://github.com/luan-hubner" target="_blank" rel="noreferrer">
               <img className={s.icon} src={github} alt="github" />
             </a>
-            <a href="https://www.linkedin.com/in/luan-hubner-b82b16177/" target="_blank">
+            <a href="https://www.linkedin.com/in/luan-hubner-b82b16177/" target="_blank" rel="noreferrer">
               <img className={s.icon} src={linkedin} alt="linkedin" />
             </a>
-            <a href="https://www.instagram.com/luanhubner/" target="_blank">
+            <a href="https://www.instagram.com/luanhubner/" target="_blank" rel="noreferrer">
               <img className={s.icon} src={instagram} alt="instagram" />
             </a>
           </div>

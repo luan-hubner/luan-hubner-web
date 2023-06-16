@@ -36,20 +36,18 @@ export default function About() {
 
               <p>
                 Eu tenho
-                <span className={s.whited}>&nbsp;21 anos&nbsp;</span>e atualmente trabalho como
-                desenvolvedor
+                <span className={s.whited}>&nbsp;22 anos&nbsp;</span>e atualmente trabalho como desenvolvedor
                 <span className={s.whited}>&nbsp;Full Stack.&nbsp;</span>
                 Entrei no mercado de desenvolvimento em
-                <span className={s.whited}>&nbsp;abril de 2019&nbsp;</span>e desde então passei
-                algumas madrugadas envolvido com tudo isso.
+                <span className={s.whited}>&nbsp;abril de 2019&nbsp;</span>e desde então passei algumas madrugadas
+                envolvido com tudo isso.
               </p>
 
               <p>
                 Meio a momentos bons e ruins adquiri conhecimentos em
                 <span className={s.whited}>&nbsp;diversas áreas&nbsp;</span>
                 graças a minha
-                <span className={s.whited}>&nbsp;flexibilidade&nbsp;</span>e tenho a certeza de que
-                eu
+                <span className={s.whited}>&nbsp;flexibilidade&nbsp;</span>e tenho a certeza de que eu
                 <span className={s.whited}>&nbsp;posso somar independente da área&nbsp;</span>
                 sem medo de mudar se for necessário.
               </p>
@@ -140,11 +138,6 @@ export default function About() {
               </div>
 
               <div className={s.techs}>
-                <span className={s.type}>DATABASES</span>
-                <span className={s.name}>MYSQL</span>
-              </div>
-
-              <div className={s.techs}>
                 <span className={s.type}>SERVERS</span>
                 <span className={s.name}>LINUX (UBUNTU), NGINX, APACHE E AWS</span>
               </div>
@@ -156,9 +149,7 @@ export default function About() {
 
               <div className={s.techs}>
                 <span className={s.type}>STUDYING NOW</span>
-                <span className={s.name}>
-                  DESIGN PATTERNS, TDD, CLEAN ARCHITECTURE E MAIS NODE.JS
-                </span>
+                <span className={s.name}>DESIGN PATTERNS, TDD, CLEAN ARCHITECTURE E MAIS NODE.JS</span>
               </div>
             </div>
           </div>
@@ -174,15 +165,14 @@ export default function About() {
               </p>
 
               <p>
-                Acredito que ser full stack é muito bom, pois, você aprende a lidar com diferentes
-                situações e problemas, entretanto, acredito mais na ideia de que devemos ter um
-                foco, ser MUITO bom em uma coisa e bom em outras.
+                Acredito que ser full stack é muito bom, pois, você aprende a lidar com diferentes situações e
+                problemas, entretanto, acredito mais na ideia de que devemos ter um foco, ser MUITO bom em uma coisa e
+                bom em outras.
               </p>
 
               <p>
-                Portanto, desejo me aprimorar nas tecnologias relacionadas com o back-end ao ponto
-                de me considerar um especialista e guiar minha carreira para ser um desenvolvedor
-                focado nessas soluções.
+                Portanto, desejo me aprimorar nas tecnologias relacionadas com o back-end ao ponto de me considerar um
+                especialista e guiar minha carreira para ser um desenvolvedor focado nessas soluções.
               </p>
             </div>
           </div>

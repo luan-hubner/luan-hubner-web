@@ -13,7 +13,7 @@ export default function Project({ project }) {
           <p>{project.description}</p>
 
           <div className={s.buttons}>
-            <a href={project.github} target="_blank" rel="noreferrer">
+            <a href={project.repoLink} target="_blank" rel="noreferrer">
               <img src={githubIcon} alt="github-link" title="GitHub" />
             </a>
 

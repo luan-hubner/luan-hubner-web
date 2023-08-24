@@ -107,7 +107,7 @@ export default function About() {
 
               <div className={s.whti}>
                 <span className={s.where}>ANÁLISE E DESENV. DE SISTEMAS</span>
-                <span className={s.time}>2021 - PRESENTE</span>
+                <span className={s.time}>2021 - 2023</span>
               </div>
             </div>
           </div>

@@ -36,7 +36,7 @@ export default function About() {
 
               <p>
                 Eu tenho
-                <span className={s.whited}>&nbsp;22 anos&nbsp;</span>e atualmente trabalho como desenvolvedor
+                <span className={s.whited}>&nbsp;24 anos&nbsp;</span>e atualmente trabalho como desenvolvedor
                 <span className={s.whited}>&nbsp;Full Stack.&nbsp;</span>
                 Entrei no mercado de desenvolvimento em
                 <span className={s.whited}>&nbsp;abril de 2019&nbsp;</span>e desde então passei algumas madrugadas
